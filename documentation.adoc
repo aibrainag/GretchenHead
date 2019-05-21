@@ -79,7 +79,7 @@ You will need these tools to assemble the Gretchen (Dev0) robot.
 
 
 === Gretchen Assembly Kit Parts
-=== sub title
+===== sub title
 
 
 image::prepare_workbench_and_tools.jpg[]
