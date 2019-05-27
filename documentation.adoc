@@ -53,20 +53,17 @@ Should have picture
 | 1 | Ball bearing, 42mm x 30mm x 7mm
 |===
 
-[cols=3*]
-|===
-3+| *Bolts and Nuts*
-3+| *M2*
-| 8  | M2 x6  | Sensorimotor board mount
-| 2  | M2 x10 | Upper Servo horn mount
-| 4  | M2 x12 | Lower Servo horn mount
-| 2  | M2 Nut | Upper Servo horn mount
-3+| *M3, M4*
-| 5  | M3 x10 | Base assembly & Intel camera assembly
-| 4  | M4 x16 | Servo mount
-| 1  | M4 x30 | Upper gimbal assembly
-| 5  | M4 Nuts | Servo mount & Upper gimbal assembly
-|===
+
+[cols=4*]
+|====
+4+| *Bolts and Nuts*
+2+| *M2*
+2+| *M3, M4*
+| 8  | M2 x6, Sensorimotor board mount | 5  | M3 x10, Base assembly & Intel camera assembly
+| 2  | M2 x10, Upper Servo horn mount | 4  | M4 x16, Servo mount
+| 4  | M2 x12, Lower Servo horn mount | 1  | M4 x30, Upper gimbal assembly
+| 2  | M2 Nut, Upper Servo horn mount | 5  | M4 Nuts, Servo mount & Upper gimbal assembly
+|====
 
 == Assembly
 
@@ -98,7 +95,7 @@ video::SY6EWGhxheM[youtube]
 
 === Step 2. Prepare the motors to be used with the sensorimotor boards.
 
-To do this, take out the servo board and extend the internal cables as shown in the picture.
+To do this, take out the servo board and extend the internal cables as shown in a left picture.
 If you don't have the same colors, just remember which cable connects to which pin on the sensorimotor board.
 use shrinkwrap to isolate the soldered connections.
 
@@ -107,32 +104,38 @@ This step requires using crimps for the connectors. The step is described in the
 
 link:https://github.com/aibrainag/Gretchen/blob/master/documentation/documentation.adoc#cable-confection[Cable confection documentation]
 
-The correct order of wires can be seen in this picture, if the motor internal connections are as a left picture.
+The correct order of wires can be seen in a right picture, if the motor internal connections are as the left picture.
+The 5 cables won't fit through the old opening. Cut the lid to make space for the new cables.
 
 
 [frame=none]
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 
-=== Step 3.Assemble the middle part of the gimble, which consists of two 3D printed parts and the x-horn of the servo.
+=== Step 3. Assemble the middle part of the gimble, which consists of two 3D printed parts and the x-horn of the servo.
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
+Assemble ABGH1, the middle part of the gimbal, which consists of two 3D printed parts and the x-horn of the servo.
+The holes of the horn should be carefully widened to 2mm with a fitting drill. If no drill is at hand, the screws delivered with the servo can
+also be inserted and removed to widen the hole. This is shown in the image below on a different horn.
 
+Pressfit the 30x42x7 bearing (6806 2RS/61806 2RS) to the 3D printed part. Push until it can't move anymore.
+It requires some force.
 
 === Step 4. Assemble the bearing part
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 Assemble the two base parts with 3 M3 x 10 screws
 
 === Step 5. Assemble middle 3d part
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 Attach the middle gimbal part to the servo. The servo should be movable in ~90° in both
@@ -140,7 +143,7 @@ directions.
 
 === Step 6. Assemble middle 3d part with bottom motor
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 Attach the straight horn to the inner gimbal part. This requires widening the holes as
@@ -149,7 +152,7 @@ described before. The M2x10 screws are used with the nuts.
 
 === Step 7. Assemble top 3d part + motor
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 Assemble the inner gimbal part to the middle gimbal part with the M4x30 screw. Use a ball
@@ -158,24 +161,28 @@ depending on your usage.
 
 === Step 8. Put sensoriboards
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 The boards should be screwed to the Gimbal in the shown places. 2 x
 M2 screws per board are enough to hold them in place.
 
 === Step 9. Wires
+
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 The cables can be held in place with zip ties. The USB 3.1 Type C cable is the most difficult
 one as it is stiff in one direction and has to be bent into the correct directions to be able to
 flex.
+
 === Step 10. Attach camera
+
 |===
-| image:cable_confection.png[]| image:after_cable_confection.png[]
+| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
 |===
 
 Assemble the Intel Realsense d435i to the gimbal with 2 M3x10 screws.
-=== Step 6.
+
+=== Step 11.
