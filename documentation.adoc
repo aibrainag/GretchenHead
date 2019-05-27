@@ -25,9 +25,9 @@ WARNING: Self-manufacturing of the parts is encouraged but can not be officially
 
 === Recommended Tools
 You will need these tools to assemble the Gretchen Head.
-
-* Tool 1
-* Tool 2
+Should have picture
+* crimps
+* ballhead imbus screwdriver
 
 === Gretchen Head Assembly Kit Parts
 ===== sub title
@@ -68,8 +68,10 @@ Assembly is done in several steps.
 Although there are many possible ways to assemble,
 we recommend the order given in the manual.
 
+=== Step 1. Prepare sensorboards
 
-=== Step 1.
+=== Step 2. Prepare the motors to be used with the sensorimotor boards.
+Before after picture
 
 
 [frame=none]
@@ -78,6 +80,22 @@ we recommend the order given in the manual.
 |===
 
 
-=== Step 2.
-=== Step 3.
-=== Step 4.
+=== Step 3.Assemble the middle part of the gimble, which consists of two 3D printed parts and the
+x-horn of the servo.
+
+
+=== Step 4. Assemble the bearing part
+
+=== Step 5. Assemble middle 3d part
+
+=== Step 6. Assemble middle 3d part with bottom motor
+
+=== Step 7. Assemble top 3d part + motor
+
+=== Step 8. Put sensoriboards
+
+=== Step 9. Wires
+
+=== Step 10. Attach camera
+
+=== Step 6.
