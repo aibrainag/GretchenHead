@@ -34,7 +34,9 @@ Should have picture
 === Gretchen Head Assembly Kit Parts
 ===== sub title
 
-[cols="25%,25%,25%,25%"]
+
+
+[cols="1,1,1,1"]
 |====
 2+| *3D-Printed Parts*
 2+| *Electronic Parts*
@@ -47,7 +49,9 @@ Should have picture
 |    |   | 1 | Ball bearing, 42mm x 30mm x 7mm
 |====
 
-[cols="25%,25%,25%,25%"]
+
+
+[cols="1,1,1,1"]
 |====
 4+| *Bolts and Nuts*
 2+| *M2*
