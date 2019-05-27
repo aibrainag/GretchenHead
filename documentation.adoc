@@ -25,8 +25,10 @@ WARNING: Self-manufacturing of the parts is encouraged but can not be officially
 
 === Recommended Tools
 You will need these tools to assemble the Gretchen Head.
+
 Should have picture
-* crimps
+
+* Crimp tool
 * ballhead imbus screwdriver
 
 === Gretchen Head Assembly Kit Parts
@@ -35,8 +37,12 @@ Should have picture
 [cols=2*]
 |===
 2+| *3D-Printed Parts*
-| 1  | Gimbal part 1
-| 1  | Gimbal part 2
+| 1  | ABGH1, Lower part
+| 1  | ABGH2, Lower part
+| 1  | ABGH3, Bearing part
+| 1  | ABGH4, Upper part
+| 1  | ABGH5, Upper part
+
 2+| *Electronic Parts*
 | 2 | Hitec Servo Motor HS81
 | 2 | Sensorimotor board rev. 1.1
@@ -70,18 +76,30 @@ we recommend the order given in the manual.
 
 === Step 1. Prepare sensorboards
 
+Prepare
+
 === Step 2. Prepare the motors to be used with the sensorimotor boards.
-Before after picture
+
+To do this, take out the servo board and extend the internal cables as shown in the picture.
+If you don't have the same colors, just remember which cable connects to which pin on the sensorimotor board.
+use shrinkwrap to isolate the soldered connections.
+
+On the other end, two 3pin molex connectors are added. One with the two motor wires and one with the three potentiometer wires.
+This step requires using crimps for the connectors. The step is described in the main gretchen documentation.
+
+link:https://github.com/aibrainag/Gretchen/blob/master/documentation/documentation.adoc#cable-confection[Cable confection documentation]
+
+The correct order of wires can be seen in this picture, if the motor internal connections are as a left picture.
 
 
 [frame=none]
 |===
-| Hello, this photo is .................| image:before_assembly.png[]
+| image:cable_confection.png[]| image:after_cable_confection.png[]
 |===
 
 
-=== Step 3.Assemble the middle part of the gimble, which consists of two 3D printed parts and the
-x-horn of the servo.
+=== Step 3.Assemble the middle part of the gimble, which consists of two 3D printed parts and the x-horn of the servo.
+
 
 
 === Step 4. Assemble the bearing part
