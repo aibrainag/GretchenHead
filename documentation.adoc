@@ -35,6 +35,7 @@ Should have picture
 ===== sub title
 
 [cols=4*]
+[cols="25%,25%,25%,25%"]
 |====
 2+| *3D-Printed Parts*
 2+| *Electronic Parts*
@@ -48,6 +49,7 @@ Should have picture
 |====
 
 [cols=4*]
+[cols="25%,25%,25%,25%"]
 |====
 4+| *Bolts and Nuts*
 2+| *M2*
