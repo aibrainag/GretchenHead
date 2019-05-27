@@ -34,7 +34,9 @@ Should have picture
 === Gretchen Head Assembly Kit Parts
 ===== sub title
 
-[width="80%",cols="3,^2,^2,10",options="header"]
+
+
+[cols="1,1,1,1" width="100%"]
 |====
 2+| *3D-Printed Parts*
 2+| *Electronic Parts*
