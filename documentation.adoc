@@ -78,7 +78,7 @@ we recommend the order given in the manual.
 |===
 2+| Components
 | image:cable_confection.png[]| image:after_cable_confection.png[]
-2+| Tools   
+2+| Tools
 | image:cable_confection.png[]| image:after_cable_confection.png[]
 |===
 |===
@@ -89,6 +89,12 @@ firmware also has to be flashed to the boards as described in the documentation.
 Connecting the cables with the 3 PIN Molex connectors is optional but helps maintenance
 through modularity.
 Prepare
+
+
+
+video::SY6EWGhxheM[youtube]
+
+
 
 === Step 2. Prepare the motors to be used with the sensorimotor boards.
 
