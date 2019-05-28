@@ -37,7 +37,7 @@ Should have picture
 
 
 [cols="1,1,1,1" width="100%"]
-|====
+|===
 2+| *3D-Printed Parts*
 2+| *Electronic Parts*
 | 1  | ABGH1, Lower part | 2 | Hitec Servo Motor HS81
@@ -47,12 +47,12 @@ Should have picture
 | 1  | ABGH5, Upper part | 2 | Robotics dynamixel 4p 240mm cable
 |    |   | 2 | Cable extension with 3 pin molex connectors
 |    |   | 1 | Ball bearing, 42mm x 30mm x 7mm
-|====
+|===
 
 
 
 [cols="1,1,1,1"]
-|====
+|===
 4+| *Bolts and Nuts*
 2+| *M2*
 2+| *M3, M4*
@@ -60,7 +60,7 @@ Should have picture
 | 2  | M2 x10, Upper Servo horn mount | 4  | M4 x16, Servo mount
 | 4  | M2 x12, Lower Servo horn mount | 1  | M4 x30, Upper gimbal assembly
 | 2  | M2 Nut, Upper Servo horn mount | 5  | M4 Nuts, Servo mount & Upper gimbal assembly
-|====
+|===
 
 == Assembly
 
