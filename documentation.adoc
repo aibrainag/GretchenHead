@@ -36,59 +36,23 @@ Should have picture
 
 
 
-.Title
-[cols="1,3",options="header"]
-|===
-|Name of Column 1 |Name of Column 2 |Name of Column 3
-
-|Cell in column 1, row 1
-|Cell in column 2, row 1
-|Cell in column 3, row 1
-
-|Cell in column 1, row 2
-|Cell in column 2, row 2
-|Cell in column 3, row 2
-|===
-
-
-
-[cols="3,4,5l,1"]
-|===
+[cols="1,1,1,1" width="100%"]
+|====
 2+| *3D-Printed Parts*
 2+| *Electronic Parts*
-| 1     | ABGH1, Lower part | 2 | Hitec Servo Motor HS81
+| 1  | ABGH1, Lower part | 2 | Hitec Servo Motor HS81
 | 1  | ABGH2, Lower part | 2 | Sensorimotor board rev. 1.1
 | 1  | ABGH3, Bearing part | 1 | Intel Realsense d435i
 | 1  | ABGH4, Upper part | 1 | USB 3.1 C-Type extension
 | 1  | ABGH5, Upper part | 2 | Robotics dynamixel 4p 240mm cable
 |    |   | 2 | Cable extension with 3 pin molex connectors
 |    |   | 1 | Ball bearing, 42mm x 30mm x 7mm
-|===
-
-
-
-[cols="10,1,2", options="header"]
-|===
-|Name
-|Category
-|Description
-
-|Firefox
-|Browser
-|Mozilla Firefox is an open-source web browser.
-It's designed for standards compliance,
-performance, portability.
-
-|Arquillian
-|Testing
-|An innovative and highly extensible testing platform.
-Empowers developers to easily create real, automated tests.
-|===
+|====
 
 
 
 [cols="1,1,1,1"]
-|===
+|====
 4+| *Bolts and Nuts*
 2+| *M2*
 2+| *M3, M4*
@@ -96,7 +60,7 @@ Empowers developers to easily create real, automated tests.
 | 2  | M2 x10, Upper Servo horn mount | 4  | M4 x16, Servo mount
 | 4  | M2 x12, Lower Servo horn mount | 1  | M4 x30, Upper gimbal assembly
 | 2  | M2 Nut, Upper Servo horn mount | 5  | M4 Nuts, Servo mount & Upper gimbal assembly
-|===
+|====
 
 == Assembly
 
