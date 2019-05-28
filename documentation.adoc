@@ -36,7 +36,7 @@ Should have picture
 
 
 
-[cols="1,1,1,1" width=50%]
+[cols="1,1,1,1" width=25%]
 |===
 2+| *3D-Printed Parts*
 2+| *Electronic Parts*
