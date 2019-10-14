@@ -30,11 +30,13 @@ Should have picture
 
 * Crimp tool
 * ballhead imbus screwdriver
+* Long nose plier
+* Snipper
+* Soldering iron & Solder
 
 === Gretchen Head Assembly Kit Parts
-===== sub title
 
-
+image::GretchenHeadComponents.png[640,480]
 
 [cols="1,1,1,1" width="100%"]
 |====
@@ -147,39 +149,154 @@ Attach the straight horn to the inner gimbal part. This requires widening the ho
 described before. The M2x10 screws are used with the nuts.
 
 
-=== Step 7. Assemble top 3d part + motor
+// === Step 7. Assemble top 3d part + motor
+// |===
+// | image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
+// |===
+//
+// Assemble the inner gimbal part to the middle gimbal part with the M4x30 screw. Use a ball
+// head imbus screwdriver to reach the screw. The Nut can be self-securing or normal,
+// depending on your usage.
+//
+// === Step 8. Put sensoriboards
+// |===
+// | image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
+// |===
+//
+// The boards should be screwed to the Gimbal in the shown places. 2 x
+// M2 screws per board are enough to hold them in place.
+
+// === Step 9. Wires
+//
+// |===
+// | image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
+// |===
+//
+// The cables can be held in place with zip ties. The USB 3.1 Type C cable is the most difficult
+// one as it is stiff in one direction and has to be bent into the correct directions to be able to
+// flex.
+
+// === Step 10. Attach camera
+//
+// |===
+// | image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
+// |===
+//
+// Assemble the Intel Realsense d435i to the gimbal with 2 M3x10 screws.
+
+
+=== Step 6. Assemble the middle part of the gimbal
+
+Overview: We assemble the middle part of the gimbal which consists of two 3d printed parts and x-horn of the servo.
+
+*Components* : assembled gimbal base, 3d print parts (ABGH3, ABGH4), x-horn, 3x M2 bolts
+
 |===
-| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
+| image:IMG_0876.JPG[320,240]| image:IMG_0877.JPG[320,240]
 |===
 
-Assemble the inner gimbal part to the middle gimbal part with the M4x30 screw. Use a ball
-head imbus screwdriver to reach the screw. The Nut can be self-securing or normal,
-depending on your usage.
+*Instructions*
 
-=== Step 8. Put sensoriboards
-|===
-| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
-|===
+6.1 Attach a x-horn to ABGH3 with two bolts.
 
-The boards should be screwed to the Gimbal in the shown places. 2 x
-M2 screws per board are enough to hold them in place.
+6.2 Attach ABGH3 to ABGH4. we call it middle gimbal part.
 
-=== Step 9. Wires
+6.3 Attach the middle gimbal part to the servo on lower part.
 
-|===
-| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
-|===
+    * The servo should be movable in ~90 degress in both directions.
 
-The cables can be held in place with zip ties. The USB 3.1 Type C cable is the most difficult
-one as it is stiff in one direction and has to be bent into the correct directions to be able to
-flex.
+link:https://www.youtube.com/watch?v=EsaZwQV3XkA&list=PLYVBkbWq7-9GDQf_p39D-3R0lgW0Ku453&index=14[click here to watch the video tutorial]
 
-=== Step 10. Attach camera
+
+=== Step 7. Assemble the upper parts (motor, ABGH4)
+
+Overview: We assemble a motor and assembled gimbal base.
+
+*Components* : assembled gimbal base, motor, 2x M4 bolt, 2x M4 nut
 
 |===
-| image:cable_confection.png[320,240]| image:after_cable_confection.png[320,240]
+| image:IMG_0880.JPG[320,240]| image:IMG_0881.JPG[320,240]
 |===
 
-Assemble the Intel Realsense d435i to the gimbal with 2 M3x10 screws.
+*Instructions*
 
-=== Step 11.
+7.1 Mount the motor to ABGH4.
+
+7.2 Screw two M4 bolts for assembling the motor and ABGH4.
+
+link:https://www.youtube.com/watch?v=GDsHdo497Fw&list=PLYVBkbWq7-9GDQf_p39D-3R0lgW0Ku453&index=15[click here to watch the video tutorial]
+
+=== Step 8. Assemble upper parts (ABGH5)
+
+Overview: We assemble upper parts. Upper parts are consist of ABGH4 and ABGH5.
+
+*Components* : assembled gimbal base, ABGH5 (3d print part), M4 bolt, M4 nut, 3x M2 bolts, 2x M2 nuts
+
+
+|===
+| image:IMG_0886.JPG[320,240]| image:IMG_0889.JPG[320,240]
+|===
+
+*Instructions*
+
+8.1 Screw the x-horn to ABGH5.
+
+8.2 Attach the motor and ABGH5.
+
+    * The servo should be movable in ~90 degress in both directions. 
+
+link:https://www.youtube.com/watch?v=DEc8nPt5TLM&list=PLYVBkbWq7-9GDQf_p39D-3R0lgW0Ku453&index=16[click here to watch the video tutorial]
+
+
+=== Step 9. Connect each motor to the board
+
+Overview: There are two motors on assembled gimbal. We connect each motor to the board and attach the boards to the assembled gimbal base with bolts.
+
+*Components* : assembled gimbal base, 2x boards, 2x motors, 4x M2 bolts
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image:IMG_0938.JPG[320,240]| image:IMG_0942.JPG[320,240]
+|====
+
+
+*Instructions*
+
+9.1 The board has four headers to connect with the cable. In the figure below, please plug the two cables of the motor into the (a) and (b) header on the board.
+
+9.2 Attach the boards to the assembled gimbal using bolts.
+
+@@@@@@ img_859, 856 should be updated (add a,b,c,d)
+
+[cols="a,a"]
+|====
+| image:IMG_0859.JPG[320,240]| image:IMG_0856.JPG[320,240]
+|====
+
+link:https://www.youtube.com/watch?v=xoMWaxC9IeA&list=PLYVBkbWq7-9GDQf_p39D-3R0lgW0Ku453&index=18[click here to watch the video tutorial]
+
+
+
+
+
+=== Step 10. Connect cables between boards and motors
+
+Overview: There are two dynamixel cables. One connects two boards. The other one is the cable to be connected with the pc.
+
+*Components* : 3d print parts, 2x dynamixel cables
+
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image:IMG_0941.JPG[320,240]| image:IMG_0942.JPG[320,240]
+|====
+
+*Instructions*
+
+10.1 connect the right side of a top board to the left side of a bottom board.
+
+10.2 connect the right side of the bottom board to pc.
+
+link:https://www.youtube.com/watch?v=yl0QS3kNg6o&list=PLYVBkbWq7-9GDQf_p39D-3R0lgW0Ku453&index=19[click here to watch the video tutorial]
